@@ -2,7 +2,7 @@
   "name": "e2e-docker",
   "private": "true",
   "version": "1.0.0",
-  "description": "e2e browser testing with docker",
+  "description": "end-to-end browser testing with docker",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
