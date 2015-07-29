@@ -1,0 +1,24 @@
+{
+  "name": "e2e-docker",
+  "private": "true",
+  "version": "1.0.0",
+  "description": "e2e browser testing with docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rnsloan/e2e-docker.git"
+  },
+  "author": "rnsloan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rnsloan/e2e-docker/issues"
+  },
+  "homepage": "https://github.com/rnsloan/e2e-docker#readme",
+  "dependencies": {
+    "express": "^4.13.1",
+    "jade": "^1.11.0"
+  }
+}
