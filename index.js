@@ -1,14 +1,14 @@
 const express = require('express');
-const jade = require('jade');
+const ejs = require('ejs');
 const app = express();
 
 app.use(express.static(__dirname + '/public'));
 
 app.set('views', __dirname + '/views');
-app.set('view engine', 'jade');
+app.engine('html', ejs.renderFile);
 
 app.get('/', function (req, res) {
-  res.render('index');
+  res.render('index.html');
 });
 
 const server = app.listen(4040, '0.0.0.0', function () {

@@ -11,3 +11,8 @@ dockerStart:
 
 dockerAttach:
 	docker exec -it e2e-docker bash
+
+## run inside container
+
+start:
+	iojs index.js
