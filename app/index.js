@@ -11,7 +11,7 @@ app.all('*', function (req, res) {
   res.render('index.html');
 });
 
-const server = app.listen(4040, '0.0.0.0', function () {
+const server = app.listen(3030, '0.0.0.0', function () {
   const host = server.address().address;
   const port = server.address().port;
 
