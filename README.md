@@ -14,3 +14,5 @@ If you are using boot2docker you can view the app at `<boot2docker ip>:3030`.
 To watch selenium with a vnc client: `vnc://<boot2docker-ip>:5900` password `secret`.
 
 HTML templates from: http://materializecss.com
+
+![vnc-screenshot](https://cloud.githubusercontent.com/assets/2513462/9115433/606ec5dc-3ca2-11e5-8bad-e7aa92188df9.png)
