@@ -1,7 +1,6 @@
 const expect = require('chai').expect;
 const webdriverio = require('webdriverio');
 
-
 describe('Test', function () {
   this.timeout(8000);
 
@@ -23,7 +22,7 @@ describe('Test', function () {
       .call(done);
   });
 
-  it('show the responsive menu at a smaller viewport', function (done) {
+  it('shows the responsive menu only at smaller viewports', function (done) {
     client
       .url('http://0.0.0.0:3030')
       .isVisible('.button-collapse').then(function(isVisible) {
