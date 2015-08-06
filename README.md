@@ -1,4 +1,4 @@
-Example application showing end-2-end browser tests with docker containers that can be viewable with a vnc client
+Example application showing end-2-end browser tests with docker containers that can be viewable with a vnc client.
 
 To run:
 
