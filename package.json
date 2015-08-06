@@ -5,12 +5,15 @@
   "description": "end-to-end browser testing with docker",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "mocha": "mocha",
+    "start": "iojs app/index.js",
+    "test": "mocha test/test.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rnsloan/e2e-docker.git"
   },
+  "author": "rnsloan",
   "author": "rnsloan",
   "license": "ISC",
   "bugs": {
@@ -20,5 +23,10 @@
   "dependencies": {
     "ejs": "^2.3.3",
     "express": "^4.13.1"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5",
+    "webdriverio": "^3.1.0"
   }
 }
